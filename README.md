@@ -17,8 +17,8 @@ df=pd.read_csv('bike.csv')
 df.info()
 df.columns
 df.datetime
+```
 
-```markdown
 Data Fields from Kaggle :   
 datetime - hourly date + timestamp    
 season -  1 = spring, 2 = summer, 3 = fall, 4 = winter   
@@ -92,7 +92,8 @@ plt.xlabel("Hour")
 plt.ylabel("Average Rentals")
 plt.xticks(range(24))
 plt.show()
-```markdown
+```
+
 We can see from the chart that 8 a.m. and 5 to 6 p.m. on working days are the periods with higher rental demand. The operations manager should increase bike availability during morning and evening rush hours. While the peak hours on non-working days occur from noon to afternoon.
 
 ```python
@@ -104,7 +105,8 @@ plt.title("Average Bike Rentals by Weather Condition")
 plt.xlabel("Weather Condition")
 plt.ylabel("Average Rentals")
 plt.show()
-```markdown
+```
+
 From the bar chart, it shows that the average rental volume under normal weather conditions is higher than that in light rain or snow weather.  
 However, there is only one record of severe weather, so a reliable operation plan cannot be formulated based on this category.
 ```python
@@ -114,7 +116,8 @@ plt.title("Average Bike Rentals by Season")
 plt.xlabel("Season")
 plt.ylabel("Average Rentals")
 plt.show()
-```markdown
+```
+
 1 = spring, 2 = summer, 3 = fall, 4 = winter   
 The bar charts illustrates that the average rental is higher in summer and fall,and is lowest in spring.
 **Conclusion:**
