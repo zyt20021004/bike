@@ -124,7 +124,7 @@ The bar charts illustrates that the average rental is higher in summer and fall,
 The exploratory analysis reveals that rental demand varies significantly by hour, working-day status, weather conditions and seasons.  
 Therefore, our dashboard will focus on identifying peak rental periods and comparing demand across weather conditions to support bike supply planning.
 
-###Answer the questions
+### Answer the questions
 Three KPIs:
 1. Total Rentals — Measures overall rental demand.
 2. Average Hourly Rentals — Measures typical demand levels.
