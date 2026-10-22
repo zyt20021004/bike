@@ -14,7 +14,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("🚲 Bike Sharing Demand Dashboard | Team Name")
+st.title("🚲 Bike Sharing Demand Dashboard | Yuting Zhang")
 
 st.caption(
     "For Bike Sharing Operations Managers: "
