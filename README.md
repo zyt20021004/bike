@@ -123,3 +123,42 @@ The bar charts illustrates that the average rental is higher in summer and fall,
 **Conclusion:**
 The exploratory analysis reveals that rental demand varies significantly by hour, working-day status, weather conditions and seasons.  
 Therefore, our dashboard will focus on identifying peak rental periods and comparing demand across weather conditions to support bike supply planning.
+
+###Answer the questions
+Three KPIs:
+1. Total Rentals — Measures overall rental demand.
+2. Average Hourly Rentals — Measures typical demand levels.
+3. Peak Hour Demand — Identifies the highest average hourly demand.
+Two Supporting Charts:
+1. Average Hourly Rentals by Working-Day Type — Identifies peak rental periods on working and non-working days.
+2. Average Rentals by Weather Condition — Compares demand under different weather conditions.
+Filters: Season and Weather Condition.
+Two Excluded Elements:
+1. Casual vs. Registered Users — Not essential for immediate bike supply decisions.
+2. Detailed Temperature and Humidity Charts — Add complexity without substantially improving the targeted decisions.
+Data Limitations:
+The dataset contains historical records from January 2011 to December 2012, covering only the first 19 days of each month. The severe weather category contains only one observation and is excluded from the weather comparison.
+Dashboard Layout:
+Three KPIs at the top, two explanatory charts in the middle, filters in the sidebar, and data limitations at the bottom.
+
+## Step 4 : Decide the Refresh Frequency
+### Q1. How often should the data be refreshed ?
+In a real-world system, rental data should be refreshed daily after the previous day's transactions are completed. Although rentals occur hourly, our dashboard mainly supports weekly bike supply and staffing decisions. Daily updates provide sufficiently recent information without the additional cost of real-time data processing.
+
+### Q2. How often should someone review it, and is that the same thing? 
+The Bike Sharing Operations Manager should review the dashboard every Monday morning to plan bike availability and staffing for the upcoming week. Data refreshes daily, but the manager reviews it weekly because major resource allocation decisions are made on a weekly basis.
+
+
+### Q3. What should be tracked over time, and what should trigger action? 
+We will track Peak Hour Demand over time. If the average rental demand during a peak hour increases by more than 30% compared with the historical baseline for the same hour and working-day type, the operations manager should review the bike supply plan and consider allocating additional bikes and staff.
+This 30% threshold is a proposed operational rule, not an existing company policy. It should be adjusted based on actual bike availability and operational capacity.
+
+
+### Q4. What does stale data cost? What goes wrong if the dashboard is a day — or a week — out of date?
+If data is one day outdated, managers may miss recent changes in rental demand caused by weather or travel patterns, leading to inefficient bike supply decisions.
+If data is one week outdated, managers may repeatedly underestimate peak-hour demand, resulting in bike shortages, lost rental opportunities, and lower customer satisfaction. Alternatively, overestimating demand could lead to unnecessary staffing and maintenance costs.
+Therefore, daily data refresh and weekly management reviews provide a reasonable balance between data freshness, operational efficiency, and cost.
+
+
+
+
