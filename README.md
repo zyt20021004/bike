@@ -124,20 +124,25 @@ The bar charts illustrates that the average rental is higher in summer and fall,
 The exploratory analysis reveals that rental demand varies significantly by hour, working-day status, weather conditions and seasons.  
 Therefore, our dashboard will focus on identifying peak rental periods and comparing demand across weather conditions to support bike supply planning.
 
-### Answer the questions
+### 2 Answer the questions
 Three KPIs:
 1. Total Rentals — Measures overall rental demand.
 2. Average Hourly Rentals — Measures typical demand levels.
 3. Peak Hour Demand — Identifies the highest average hourly demand.
+   
 Two Supporting Charts:
 1. Average Hourly Rentals by Working-Day Type — Identifies peak rental periods on working and non-working days.
 2. Average Rentals by Weather Condition — Compares demand under different weather conditions.
+   
 Filters: Season and Weather Condition.
+
 Two Excluded Elements:
 1. Casual vs. Registered Users — Not essential for immediate bike supply decisions.
 2. Detailed Temperature and Humidity Charts — Add complexity without substantially improving the targeted decisions.
+   
 Data Limitations:
 The dataset contains historical records from January 2011 to December 2012, covering only the first 19 days of each month. The severe weather category contains only one observation and is excluded from the weather comparison.
+
 Dashboard Layout:
 Three KPIs at the top, two explanatory charts in the middle, filters in the sidebar, and data limitations at the bottom.
 
