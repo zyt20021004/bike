@@ -1,3 +1,3 @@
-uv init --python 3.14 my-streamlit
-cd my-streamlit
-uv add streamlit pandas matplotlib
+streamlit
+pandas
+matplotlib
